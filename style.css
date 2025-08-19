@@ -1,0 +1,238 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Background image with blur */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("Resources/frassati-bg.jpg") no-repeat center center/cover;
+  filter: blur(6px);
+  z-index: -1;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card container */
+.card {
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 550px;  
+  height: auto;
+  width: 90%;        /* Flexible width for smaller screens */
+  min-width: 260px;   /* Minimum width for very small screens */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  border: black 3px solid;
+  margin: auto;
+  
+}
+
+/* Responsive adjustments for smartphones */
+@media screen and (max-width: 500px) {
+  .card {
+    max-width: 95vw;
+    min-width: 0;
+    font-size: 14px;
+  }
+}
+/* Card header with logos */
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fbbe15;
+  padding: 15px;
+  border-radius: 15px 15px;
+}
+
+.card-header h2 {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+
+}
+
+/* Responsive adjustments for smartphones */
+@media screen and (max-width: 500px) {
+  .logo {
+    height: 60px;
+  width: auto;
+  }
+}
+
+/* Main heading */
+h1 {
+  margin: 20px 0 5px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  justify-content: center;
+  margin: 8px auto;
+  padding: 10px;
+  background: black;
+  color: #fbbe15;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90%;
+  font-size: large;
+}
+
+
+.btn:hover {
+  background: #fbbe15;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive for smartphones */
+@media screen and (max-width: 500px) {
+  .background {
+    background: #cccccc;
+    filter: none;
+  }
+}
+
+.greet{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    padding-left: 28px;
+}
