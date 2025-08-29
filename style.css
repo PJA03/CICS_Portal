@@ -146,7 +146,6 @@ body {
   box-shadow: 0 4px 20px rgba(0,0,0,0.3);
   border: black 3px solid;
   margin: auto;
-  
 }
 
 /* Responsive adjustments for smartphones */
@@ -195,6 +194,8 @@ h1 {
   margin: 20px 0 5px;
   font-size: 22px;
   font-weight: bolder;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Buttons */
@@ -209,7 +210,7 @@ h1 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 90%;
+  width: 70%;
   font-size: large;
 }
 
@@ -228,27 +229,43 @@ h1 {
   }
 }
 
-.greet{
+.greet {
     font-size: 30px;
+    padding: 10px;
 }
 
-p{
+.iam {
     font-size: 20px;
-    padding-left: 28px;
 }
 
-.btn-signin{
-  width: 90%;
+.btn-signin {
+  width: 70%;
   padding: 10px;
   background: black;
-  margin-top: 95px;
 }
 
-signin-text{
-  font-size: 20px;
+.signin-text {
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
 }
 
-voucher-form{
-  margin: 0px 30px;
-} 
+.voucher-btn {
+  width: 70%;
+  background: black;
+}
 
+.voucher-form {
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.voucher-input {
+  width: 70%;
+  margin: 8px auto;
+  padding: 10px;
+}
